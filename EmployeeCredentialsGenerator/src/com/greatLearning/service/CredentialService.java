@@ -9,14 +9,14 @@ public class CredentialService {
 //	
 	public String generateEmail(String fName,String lName,String dept){
 		
-		String emailId = fName+lName+"@"+dept+"company.com";
+		String emailId = fName+lName+"@"+dept+".company.com";
 		return emailId;
 		
 	}
 	
 	public void showCredentials(employee emp, String emailId, char [] passsword) {
 		
-		System.out.println("Dear" + emp.getFirstName()+""+ emp.getLastName()+"your generated credentials are as follows:");
+		System.out.println("Dear" +" "+ emp.getFirstName()+" "+ emp.getLastName()+" "+"your generated credentials are as follows:");
 		System.out.println("Email ID:" +emailId);
 		
 		System.out.println("Password>>>>>>");

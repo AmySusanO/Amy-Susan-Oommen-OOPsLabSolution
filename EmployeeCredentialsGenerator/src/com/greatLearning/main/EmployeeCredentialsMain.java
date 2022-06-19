@@ -41,6 +41,7 @@ public class EmployeeCredentialsMain {
     		System.out.println("*************************");
     		
     		options = sc.nextInt();
+    		
     		switch(options){
 //    			case 0:
 //    				System.out.println("Exit");
@@ -79,8 +80,8 @@ public class EmployeeCredentialsMain {
     		}
     		
     	}
-    	while(options!=1 || options!=2 || options!=3 || options!=4 ); {
-    		System.out.println("Enter a number between 1 and 4");
+    	while(options!=1 && options!=2 && options!=3 && options!=4 ); {
+    		System.out.println("");
     	}
 		
 		
